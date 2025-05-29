@@ -1,0 +1,41 @@
+body {
+    background-image: url(imagenes/arch.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -190px;
+    font-size: 40px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    bottom: 20%;
+}
+
+#pie {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -70%;
+    left: 45%;
+    width: 150px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

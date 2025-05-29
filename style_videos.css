@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(68, 68, 68);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    bottom: 90%;
+}
+
+iframe {
+    position: relative;
+    left: 30%;
+    bottom: -150px;
+}
+
+#t1 {
+    position: relative;
+    top: 120px;
+    left: 37%;
+    color: white;
+}
+
+#t2 {
+    position: relative;
+    left: 47%; 
+    top: 150px;
+    color: white;
+}
+
+p {
+    position: relative;
+    bottom: -160px;
+    margin: 20px;
+}
+
+#pie {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -270px;
+    left: 45%;
+    width: 150px;
+    font-size: 25px;
+}
